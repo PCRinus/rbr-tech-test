@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+    "types": ["node"],
+    "paths": {
+      "@@assets/*": ["./src/assets/*"],
+      "@@pages/*": ["./src/pages/*"]
+    }
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
