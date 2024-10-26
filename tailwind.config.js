@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         rbrBlue: "#001a30",
-        rbrRed: "#ea1d2d",
+        "rbrRed-500": "#ea1d2d",
+        "rbrRed-600": "#db0940",
         rbrGrey: "#a8a9ac",
         rbrYellow: "#fcd700",
       },
