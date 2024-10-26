@@ -28,12 +28,12 @@ export const DriverStandingTableRow = ({
 
   return (
     <tr className={classNames(className)} key={driver_uuid}>
-      <td>{position + 1}</td>
-      <td>
+      <td className="px-4">{position + 1}</td>
+      <td className="px-4">
         {first_name} {last_name}
       </td>
-      <td>{season_team_name}</td>
-      <td>{season_points}</td>
+      <td className="px-4">{season_team_name}</td>
+      <td className="px-4">{season_points}</td>
     </tr>
   );
 };

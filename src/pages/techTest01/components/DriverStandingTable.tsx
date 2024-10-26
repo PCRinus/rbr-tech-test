@@ -9,13 +9,13 @@ export const DriverStandingTable = ({
   driverData,
 }: DriverStandingTableProps) => {
   return (
-    <table>
+    <table className="table-auto">
       <thead>
         <tr>
-          <th>Driver Position</th>
-          <th>Driver</th>
-          <th>Team</th>
-          <th>Points</th>
+          <th className="px-4 text-start">Driver Position</th>
+          <th className="px-4 text-start">Driver</th>
+          <th className="px-4 text-start">Team</th>
+          <th className="px-4 text-start">Points</th>
         </tr>
       </thead>
       <tbody>
