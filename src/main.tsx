@@ -4,8 +4,10 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Root } from "@@pages/root/Root";
 import { Homepage } from "@@pages/homepage/Homepage";
-import { TechTest01 } from "@@pages/tech-test-01/techTest01";
-import { TechTest02 } from "@@pages/tech-test-02/techTest02";
+import { TechTest01 } from "@@pages/tech-test-01/TechTest01";
+import { TechTest02 } from "@@pages/tech-test-02/TechTest02";
+import { CardRail } from "@@pages/card-rail/CardRail";
+import { HeroElement } from "@@pages/hero-element/HeroElement";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,11 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/card-rail",
+    element: <CardRail />,
+  },
+  { path: "/hero-element", element: <HeroElement /> },
 ]);
 
 createRoot(document.getElementById("root")!).render(
