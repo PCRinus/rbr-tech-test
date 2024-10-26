@@ -19,7 +19,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "@@assets/*": ["./src/assets/*"],
+      "@@pages/*": ["./src/pages/*"]
+    }
   },
   "include": ["src"]
 }

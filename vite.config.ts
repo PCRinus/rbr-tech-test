@@ -7,8 +7,13 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@@assets": path.resolve(__dirname, "src/assets"),
-      "@@pages": path.resolve(__dirname, "src/pages"),
+      "@@assets": path.resolve(__dirname, "./src/assets"),
+      "@@pages": path.resolve(__dirname, "./src/pages"),
+    },
+  },
+  server: {
+    fs: {
+      cachedChecks: false,
     },
   },
 });

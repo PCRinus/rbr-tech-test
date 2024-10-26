@@ -2,10 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Root } from "./pages/root/root";
-import { TechTest01 } from "./pages/techTest01/techTest01";
-import { TechTest02 } from "./pages/techTest02/techTest02";
-import { Homepage } from "./pages/homepage/Homepage";
+import { Root } from "@@pages/root/Root";
+import { Homepage } from "@@pages/homepage/Homepage";
+import { TechTest01 } from "@@pages/tech-test-01/techTest01";
+import { TechTest02 } from "@@pages/tech-test-02/techTest02";
 
 const router = createBrowserRouter([
   {
@@ -16,14 +16,14 @@ const router = createBrowserRouter([
         element: <Homepage />,
       },
       {
-        path: "tech-test-01",
+        path: "/tech-test-01",
         element: <TechTest01 />,
       },
+      {
+        path: "/tech-test-02",
+        element: <TechTest02 />,
+      },
     ],
-  },
-  {
-    path: "tech-test-02",
-    element: <TechTest02 />,
   },
 ]);
 
