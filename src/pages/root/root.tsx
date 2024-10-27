@@ -6,7 +6,7 @@ export const Root = () => {
     <>
       <Header />
 
-      <main className="flex flex-col gap-4 px-20 py-8">
+      <main className="flex flex-col gap-4 px-8 py-8 lg:px-20">
         <Outlet />
       </main>
     </>
