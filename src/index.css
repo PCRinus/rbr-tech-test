@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "FuturaPtLight";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/futura-pt/FuturaCyrillicLight.ttf")
+    format("truetype");
+}
+
+@font-face {
   font-family: "FuturaPtMedium";
   font-style: normal;
   font-weight: 400;
