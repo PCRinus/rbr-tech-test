@@ -25,6 +25,9 @@ const router = createBrowserRouter([
         path: "/tech-test-02",
         element: <TechTest02 />,
       },
+      { path: "/card-rail/card-01", element: <h1>You clicked on Card 01</h1> },
+      { path: "/card-rail/card-02", element: <h1>You clicked on Card 02</h1> },
+      { path: "/card-rail/card-03", element: <h1>You clicked on Card 03</h1> },
     ],
   },
   {

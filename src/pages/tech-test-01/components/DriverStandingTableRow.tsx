@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import { cn } from "@@utils/cn";
 import { DriverData } from "../useDriverData";
 
 type DriverStandingTableRow = {
@@ -27,7 +27,7 @@ export const DriverStandingTableRow = ({
   } = driverData;
 
   return (
-    <tr className={classNames(className)} key={driver_uuid}>
+    <tr className={cn(className)} key={driver_uuid}>
       <td className="px-4">{position + 1}</td>
       <td className="px-4">
         {first_name} {last_name}
