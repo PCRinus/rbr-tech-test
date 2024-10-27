@@ -1,4 +1,4 @@
-import { LinkButton } from "@@components/linkButton/LinkButton";
+import { LinkButton } from "@@components/link-button/LinkButton";
 
 export const TechTest02 = () => {
   return (
