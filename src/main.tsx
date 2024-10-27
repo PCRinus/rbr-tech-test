@@ -8,6 +8,7 @@ import { TechTest01 } from "@@pages/tech-test-01/TechTest01";
 import { TechTest02 } from "@@pages/tech-test-02/TechTest02";
 import { CardRail } from "@@pages/card-rail/CardRail";
 import { HeroElement } from "@@pages/hero-element/HeroElement";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ParallaxProvider>
+      <RouterProvider router={router} />
+    </ParallaxProvider>
   </StrictMode>,
 );
