@@ -20,6 +20,13 @@ export default {
         perezCard: "url('/src/assets/images/card-rail/perez-card.png')",
         hannahCard: "url('/src/assets/images/card-rail/hannah-card.png')",
         statsCard: "url('/src/assets/images/card-rail/stats-card.png')",
+        backgroundHero: "url('/src/assets/images/hero-element/background.png')",
+        foregroundHero: "url('/src/assets/images/hero-element/foreground.png')",
+      },
+      fontFamily: {
+        bullsLight: ['FuturaPtLight'],
+        bullsMedium: ['FuturaPtMedium'],
+        bullsBold: ['FuturaPtBold'],
       },
     },
   },
