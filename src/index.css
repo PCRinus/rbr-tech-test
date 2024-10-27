@@ -18,7 +18,20 @@
     format("truetype");
 }
 
+@font-face {
+  font-family: "FuturaPtBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/futura-pt/FuturaCyrillicBold.ttf") format("truetype");
+}
+
 @layer base {
+  html,
+  body,
+  #root {
+    height: 100dvh;
+  }
+
   html {
     font-family: "FuturaPtMedium", Arial, sans-serif;
   }
